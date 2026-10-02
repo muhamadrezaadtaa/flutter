@@ -21,7 +21,9 @@ class Latihan1 extends StatelessWidget {
           Column(
             children: [
                 Text("Nama : Reza Aditia"),
+                SizedBox(height: 10),
                 Text("NIS : 123456789"),
+                SizedBox(height: 10),
                 Text("Kelas : 12 RPL 1"),
             ],
           ),

@@ -4,8 +4,11 @@
 // import 'package:belajar_flutter/row_column/RowWidget.dart';
 // import 'package:belajar_flutter/container/Latihan1.dart';
 // import 'package:belajar_flutter/sized_box/ExpandedWidget.dart';
-import 'package:belajar_flutter/buat_latihan/Latihan3.dart';
-import 'package:belajar_flutter/buat_latihan/Latihan4.dart';
+// import 'package:belajar_flutter/buat_latihan/Latihan3.dart';
+// import 'package:belajar_flutter/buat_latihan/Latihan4.dart';
+// import 'package:belajar_flutter/buat_latihan/trymakeinstagram.dart';
+import 'package:belajar_flutter/list_grid_view/article_list_screen.dart';
+// import 'package:belajar_flutter/list_grid_view/detail_screen.dart';
 // import 'package:belajar_flutter/sized_box/LayoutDua.dart';
 // import 'package:belajar_flutter/sized_box/LayoutSatu.dart';
 // import 'package:belajar_flutter/sized_box/StackWidget.dart';
@@ -29,7 +32,7 @@ class MyApp extends StatelessWidget {
           backgroundColor: const Color.fromARGB(255, 121, 172, 255),
           centerTitle: true,
         ),
-        body: Latihan4()
+        body: ArticleListScreen()
       ),
     );
   }

@@ -4,6 +4,7 @@ import 'package:belajar_flutter/pages/about_page.dart';
 import 'package:belajar_flutter/pages/home_page.dart';
 import 'package:belajar_flutter/buat_latihan/trymakeinstagram.dart';
 import 'package:belajar_flutter/buat_latihan/latihan3.dart';
+import 'package:belajar_flutter/pages/form_page.dart';
 
 class AppRoute {
   static const home = '/';
@@ -11,6 +12,7 @@ class AppRoute {
   static const about = '/about';
   static const instagram = '/instagram';
   static const latihantiga = '/latihantiga';
+  static const formPage = '/form-page';
 
   static Map<String, WidgetBuilder> routes = {
 
@@ -19,5 +21,6 @@ class AppRoute {
     about: (context) => const AboutPage(),
     instagram: (context) => const Gridinstagram(),
     latihantiga: (context) => Latihan3(),
+    formPage: (context) => const FormPage(),
   };
 }

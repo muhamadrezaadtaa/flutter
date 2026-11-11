@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:belajar_flutter/list_grid_view/detail_screen.dart';
+import 'package:belajar_flutter/routes/app_route.dart';
 
 class ArticleListScreen extends StatelessWidget {
   const ArticleListScreen({super.key});
@@ -45,11 +45,10 @@ class ArticleListScreen extends StatelessWidget {
         final article = articles[index];
         return GestureDetector(
           onTap: () {
-            Navigator.push(
+            Navigator.pushNamed(
               context,
-              MaterialPageRoute(
-                builder: (_) => ArticleDetailScreen(data: article),
-              ),
+              AppRoute.articleDetail,
+              arguments: article,
             );
           },
           child: Container(
